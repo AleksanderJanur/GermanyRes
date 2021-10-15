@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="assets/css/nice-select.css">
 	<link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/myCss.css">
-    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.css" />
+
 </head>
 <body>
     <!--? Preloader Start -->
@@ -59,12 +59,7 @@
                                                 <li><a href="index.html">Home</a></li>
                                                 <li><a href="about.html">Zeit zum Feiern</a></li>
                                                 <li><a href="menu.html">Menu</a></li>
-                                                <li><a href="blog.html">Blog</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="blog.html">Blog</a></li>
-                                                        <li><a href="blog_details.html">Blog Details</a></li>
-                                                        <li><a href="elements.html">Element</a></li>
-                                                    </ul>
+                                                <li><a href="blog.html">Aktive Zeit</a>
                                                 </li>
                                                 <li><a href="contact.html">Contact</a></li>
                                             </ul>
@@ -135,7 +130,7 @@
                     <div class="col-lg-6 col-md-12">
                         <!-- about-img -->
                         <div class="about-img ">
-                            <img src="assets/myImg/res4.jpeg" alt="">
+                            <img class="myImages" src="assets/myImg/res4.jpeg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -155,6 +150,9 @@
                 </div>
             </div>
         </div>
+
+
+
 
         <div class="about-low-area">
             <div class="container">
@@ -218,30 +216,30 @@
                     <div class="col-lg-6 col-md-12">
                         <!-- about-img -->
                         <div class="about-img ">
-                            <img src="assets/myImg/res7.jpeg" alt="">
+                            <img class="myImages" src="assets/myImg/res7.jpeg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="owl-carousel owl-theme owl-loaded">
-            <div class="owl-stage-outer">
-                <div class="owl-stage">
-                    <div class="owl-item"><img src="assets/myImg/res3.jpeg" alt=""></div>
-                    <div class="owl-item"><img src="assets/myImg/res2.jpeg" alt=""></div>
-                    <div class="owl-item"><img src="assets/myImg/res5.jpeg" alt=""></div>
-                </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+                <img class="myImages" src="assets/myImg/p1.jpeg" alt="">
             </div>
-            <div class="owl-nav">
-                <div class="owl-prev">prev</div>
-                <div class="owl-next">next</div>
+            <div class="col-lg-6">
+                <img class="myImages" src="assets/myImg/p2.jpeg" alt="">
             </div>
-            <div class="owl-dots">
-                <div class="owl-dot active"><span></span></div>
-                <div class="owl-dot"><span></span></div>
-                <div class="owl-dot"><span></span></div>
+            <div class="col-lg-6">
+                <img class="myImages" src="assets/myImg/p3.jpeg" alt="">
             </div>
+            <div class="col-lg-6">
+                <img class="myImages" src="assets/myImg/p4.jpeg" alt="">
+            </div>
+          </div>
         </div>
+
 
         <!-- About Area End -->
         <!--? gallery Products Start -->
@@ -618,8 +616,8 @@
                     <div class="cl-xl-7 col-lg-8 col-md-10">
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-70">
-                            <span>Servicees We Offer</span>
-                            <h2>Our Best Services</h2>
+                            <span>Dienstleistungen, die wir anbieten</span>
+                            <h2>Unsere besten Dienstleistungen</h2>
                         </div>
                     </div>
                 </div>
@@ -864,19 +862,6 @@
     <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
-    <script src="./node_modules/jquery/dist/jquery.js"></script>
-    <script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script>
-        $('.owl-carousel').owlCarousel({
-            items:4,
-            loop:false,
-            center:true,
-            margin:10,
-            URLhashListener:true,
-            autoplayHoverPause:true,
-            startPosition: 'URLHash'
-        });
-    </script>
 
     </body>
 </html>
